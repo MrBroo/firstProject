@@ -1,0 +1,232 @@
+.first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 140px;
+}
+
+.section-start {
+    display: flex;
+}
+
+.section-left img {
+    margin-top: 100px;
+
+}
+
+.section-right {
+    height: 496px;
+    margin-bottom: 190px;
+}
+
+.section-right p:nth-child(1) {
+    color: #1D92FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.section-right h1 {
+    color: #000;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: capitalize;
+}
+
+.section-right h1 span {
+    color: #000;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 135%;
+    text-transform: capitalize;
+}
+
+.section-right h2 {
+    color: rgba(1, 7, 13, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.section-right h2 span {
+    color: rgba(1, 7, 13, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.section-right #one-p {
+    color: #383838;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.section-right #two-p {
+    color: #383838;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.section-right #three-p {
+    color: #383838;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+#flex-s {
+    display: flex;
+    align-items: center;
+}
+
+#flex-s img {
+    margin-right: 10px;
+}
+
+#center__first-p {
+    color: #1D92FF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+#center__first-h1 {
+    max-width: 466px;
+    margin-top: 10px;
+    color: #01070D;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+#center__first-h1 span {
+    color: #01070D;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.mini-card h1 {
+    color: #1D92FF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.mini-card p {
+    color: rgba(1, 7, 13, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.mini-card p span {
+    color: rgba(29, 146, 255, 0.65);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration-line: underline;
+}
+
+.mini-card {
+    padding: 18px 35px;
+    width: 472px;
+    height: 157px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    border: 1px solid rgba(1, 7, 13, 0.10);
+}
+.center-flex{
+    display: flex;
+}
+.mini-card2 select {
+    margin-top: 15px;
+    padding: 15px 20px;
+    width: 545px;
+    flex-shrink: 0;
+    color: #a0a1a2;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    border-radius: 5px;
+    border: 1px solid rgba(1, 7, 13, 0.10);
+    background: #FFF;
+}
+#btn-mini1:active{
+    color:#1D92FF ;
+    background-color: #FFF;
+    border: 1px solid rgba(1, 7, 13, 0.10);
+}
+#btn-mini1 {
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize;
+    border-radius: 4px;
+    background: #1D92FF;
+    border: none;
+    width: 198px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 45px;
+    margin-right: 25px;
+}
+#btn-mini2:active{
+     color: #FFF;
+     background-color: #1D92FF;
+}
+#btn-mini2 {
+    color: #1D92FF;
+    width: 198px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize; 
+    font-size: 16px;
+    padding: 15px 30px;
+    margin-top: 45px;
+    background-color: #FFF;
+    border-radius: 4px;
+    border: 1px solid rgba(29, 146, 255, 0.10);
+}
+.center-flex__right img{
+    margin-top: -170px;
+    width: 731px;
+    height: 689px;
+}

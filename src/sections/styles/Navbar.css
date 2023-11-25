@@ -1,0 +1,50 @@
+nav {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin: 0 20px
+}
+ul li:hover{
+    cursor: pointer;
+    color: #1D92FF;
+    border-bottom: 0.5px solid #FFF;
+}
+nav button {
+    color: #1D92FF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    margin: 50px 0px;
+}
+
+nav span {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 13px;
+}
